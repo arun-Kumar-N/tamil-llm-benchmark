@@ -1,0 +1,23 @@
+{
+  "name": "tamil-llm-benchmark",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An open benchmark measuring how well LLMs handle Tamil.",
+  "scripts": {
+    "run-models": "tsx src/run.ts",
+    "score": "tsx src/score.ts",
+    "leaderboard": "tsx src/leaderboard.ts",
+    "bench": "tsx src/run.ts && tsx src/score.ts && tsx src/leaderboard.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.69.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

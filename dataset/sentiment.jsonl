@@ -1,0 +1,3 @@
+{"id": "sent-001", "task": "sentiment", "scoring": "accuracy", "input": "படம் மிகவும் நன்றாக இருந்தது.", "reference": "positive", "metadata": {"register": "formal", "difficulty": "easy"}}
+{"id": "sent-002", "task": "sentiment", "scoring": "accuracy", "input": "சேவை மிகவும் மோசமாக இருந்தது.", "reference": "negative", "metadata": {"register": "formal", "difficulty": "easy"}}
+{"id": "sent-003", "task": "sentiment", "scoring": "accuracy", "input": "படம் சூப்பர், ஆனா க்ளைமாக்ஸ் கொஞ்சம் சோகம்.", "reference": "mixed", "metadata": {"register": "colloquial", "difficulty": "medium"}}
