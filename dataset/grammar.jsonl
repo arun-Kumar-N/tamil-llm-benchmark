@@ -1,0 +1,10 @@
+{"id": "gram-001", "task": "grammar", "scoring": "judge", "input": "அவர்கள் நேற்று வந்தான்.", "reference": "அவர்கள் நேற்று வந்தார்கள்.", "metadata": {"error_type": "number_agreement", "difficulty": "easy"}}
+{"id": "gram-002", "task": "grammar", "scoring": "judge", "input": "நான் பள்ளிக்கு போனான்.", "reference": "நான் பள்ளிக்கு போனேன்.", "metadata": {"error_type": "person_agreement", "difficulty": "easy"}}
+{"id": "gram-003", "task": "grammar", "scoring": "judge", "input": "அவள் சாப்பிட்டான்.", "reference": "அவள் சாப்பிட்டாள்.", "metadata": {"error_type": "gender_agreement", "difficulty": "easy"}}
+{"id": "gram-004", "task": "grammar", "scoring": "judge", "input": "நாளை நான் கடைக்கு போனேன்.", "reference": "நாளை நான் கடைக்கு போவேன்.", "metadata": {"error_type": "tense", "difficulty": "medium"}}
+{"id": "gram-005", "task": "grammar", "scoring": "judge", "input": "அவன் வீடு இருக்கிறான்.", "reference": "அவன் வீட்டில் இருக்கிறான்.", "metadata": {"error_type": "case_locative", "difficulty": "medium"}}
+{"id": "gram-006", "task": "grammar", "scoring": "judge", "input": "மூன்று பையன் வந்தான்.", "reference": "மூன்று பையன்கள் வந்தார்கள்.", "metadata": {"error_type": "plural_agreement", "difficulty": "medium"}}
+{"id": "gram-007", "task": "grammar", "scoring": "judge", "input": "என் அம்மா நல்லவன்.", "reference": "என் அம்மா நல்லவள்.", "metadata": {"error_type": "gender_agreement", "difficulty": "easy"}}
+{"id": "gram-008", "task": "grammar", "scoring": "judge", "input": "நேற்று நான் வருகிறேன்.", "reference": "நேற்று நான் வந்தேன்.", "metadata": {"error_type": "tense", "difficulty": "medium"}}
+{"id": "gram-009", "task": "grammar", "scoring": "judge", "input": "ஆசிரியர் வந்தான்.", "reference": "ஆசிரியர் வந்தார்.", "metadata": {"error_type": "honorific_agreement", "difficulty": "medium"}}
+{"id": "gram-010", "task": "grammar", "scoring": "judge", "input": "நான் அவன் பணம் கொடுத்தேன்.", "reference": "நான் அவனுக்கு பணம் கொடுத்தேன்.", "metadata": {"error_type": "case_dative", "difficulty": "medium"}}
