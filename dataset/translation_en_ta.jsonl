@@ -1,5 +1,5 @@
-{"id": "en-ta-001", "task": "translation_en_ta", "scoring": "chrf", "input": "The weather is nice today.", "reference": "இன்று வானிலை நன்றாக இருக்கிறது.", "metadata": {"register": "formal", "difficulty": "easy"}}
-{"id": "en-ta-002", "task": "translation_en_ta", "scoring": "chrf", "input": "I am drinking water.", "reference": "நான் தண்ணீர் குடிக்கிறேன்.", "metadata": {"register": "formal", "difficulty": "easy"}}
-{"id": "en-ta-003", "task": "translation_en_ta", "scoring": "chrf", "input": "Where is the railway station?", "reference": "ரயில் நிலையம் எங்கே இருக்கிறது?", "metadata": {"register": "formal", "difficulty": "easy"}}
-{"id": "en-ta-004", "task": "translation_en_ta", "scoring": "chrf", "input": "She is reading a book.", "reference": "அவள் ஒரு புத்தகம் படிக்கிறாள்.", "metadata": {"register": "formal", "difficulty": "medium"}}
-{"id": "en-ta-005", "task": "translation_en_ta", "scoring": "chrf", "input": "We will go to school tomorrow.", "reference": "நாங்கள் நாளை பள்ளிக்குச் செல்வோம்.", "metadata": {"register": "formal", "difficulty": "medium"}}
+{"id": "en-ta-001", "task": "translation_en_ta", "scoring": "judge", "input": "The weather is nice today.", "reference": "இன்று வானிலை நன்றாக இருக்கிறது.", "metadata": {"register": "formal", "difficulty": "easy"}}
+{"id": "en-ta-002", "task": "translation_en_ta", "scoring": "judge", "input": "I am drinking water.", "reference": "நான் தண்ணீர் குடிக்கிறேன்.", "metadata": {"register": "formal", "difficulty": "easy"}}
+{"id": "en-ta-003", "task": "translation_en_ta", "scoring": "judge", "input": "Where is the railway station?", "reference": "ரயில் நிலையம் எங்கே இருக்கிறது?", "metadata": {"register": "formal", "difficulty": "easy"}}
+{"id": "en-ta-004", "task": "translation_en_ta", "scoring": "judge", "input": "She is reading a book.", "reference": "அவள் ஒரு புத்தகம் படிக்கிறாள்.", "metadata": {"register": "formal", "difficulty": "medium"}}
+{"id": "en-ta-005", "task": "translation_en_ta", "scoring": "judge", "input": "We will go to school tomorrow.", "reference": "நாங்கள் நாளை பள்ளிக்குச் செல்வோம்.", "metadata": {"register": "formal", "difficulty": "medium"}}
