@@ -10,12 +10,14 @@
     "leaderboard": "tsx src/leaderboard.ts",
     "inspect": "tsx src/inspect.ts",
     "review": "tsx src/review-sheet.ts",
+    "tokens": "tsx src/token-efficiency.ts",
     "bench": "tsx src/run.ts && tsx src/score.ts && tsx src/leaderboard.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.69.0",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "gpt-tokenizer": "^3.4.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
