@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Tamil LLM Benchmark — Leaderboard</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background:radial-gradient(50rem 40rem at 100% -10%,rgba(99,102,241,.10),transparent 60%),
+      radial-gradient(40rem 40rem at -10% 110%,rgba(168,85,247,.10),transparent 55%),#f6f7fb;
+    color:#0f172a;min-height:100vh;padding:48px 20px}
+  .wrap{max-width:920px;margin:0 auto}
+  .eyebrow{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#6366f1;margin-bottom:8px}
+  h1{font-size:36px;font-weight:700;letter-spacing:-.02em}
+  .sub{font-size:16px;color:#64748b;margin-top:8px;line-height:1.5;max-width:620px}
+  .meta{margin-top:14px;font-size:13px;color:#94a3b8}
+  .card{background:#fff;border-radius:18px;box-shadow:0 20px 50px rgba(15,23,42,.07);
+    padding:8px;margin-top:28px;overflow-x:auto}
+  table{border-collapse:collapse;width:100%;min-width:640px}
+  th,td{padding:12px 10px;text-align:center;font-size:14px}
+  thead th{font-size:11px;font-weight:600;color:#94a3b8;text-transform:uppercase;letter-spacing:.03em;
+    border-bottom:2px solid #eef2f7;vertical-align:bottom}
+  thead th:nth-child(-n+3){text-align:left}
+  tbody tr{border-bottom:1px solid #f1f5f9}
+  tbody tr:last-child{border-bottom:none}
+  .rank{font-size:18px;width:44px}
+  .model{text-align:left;font-weight:600;font-size:15px;color:#1e293b}
+  .overall{font-weight:700;font-size:16px;color:#4f46e5}
+  td{border-radius:6px}
+  .findings{margin-top:26px;background:#fff;border-radius:14px;padding:20px 24px;
+    box-shadow:0 10px 30px rgba(15,23,42,.05)}
+  .findings h2{font-size:15px;font-weight:600;color:#0f172a;margin-bottom:10px}
+  .findings p{font-size:14px;color:#475569;line-height:1.6;margin:6px 0}
+  .foot{margin-top:24px;font-size:12px;color:#94a3b8;text-align:center}
+  code{background:#eef2ff;color:#4338ca;padding:1px 6px;border-radius:5px;font-size:12px}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="eyebrow">Open Evaluation · built by a native speaker</div>
+    <h1>Tamil LLM Benchmark</h1>
+    <p class="sub">How well do today's language models actually handle Tamil? Measured across 4 tasks with chrF, accuracy, and LLM-as-judge scoring.</p>
+    <div class="meta">48 test items · 4 tasks · 2 models · updated 2026-07-03</div>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr><th>#</th><th>Model</th><th>Overall</th><th>grammar</th><th>sentiment</th><th>translation<br>en<br>ta</th><th>transliteration</th></tr>
+        </thead>
+        <tbody><tr>
+      <td class="rank">🥇</td>
+      <td class="model">claude-sonnet-4-6</td>
+      <td class="overall">97.4</td>
+      <td style="background:hsl(130, 65%, 94%); color:hsl(130, 45%, 30%)">100.0</td><td style="background:hsl(130, 65%, 94%); color:hsl(130, 45%, 30%)">100.0</td><td style="background:hsl(124, 65%, 94%); color:hsl(124, 45%, 30%)">95.0</td><td style="background:hsl(123, 65%, 94%); color:hsl(123, 45%, 30%)">94.4</td>
+    </tr><tr>
+      <td class="rank">🥈</td>
+      <td class="model">claude-haiku-4-5</td>
+      <td class="overall">93.8</td>
+      <td style="background:hsl(130, 65%, 94%); color:hsl(130, 45%, 30%)">100.0</td><td style="background:hsl(130, 65%, 94%); color:hsl(130, 45%, 30%)">100.0</td><td style="background:hsl(124, 65%, 94%); color:hsl(124, 45%, 30%)">95.0</td><td style="background:hsl(104, 65%, 94%); color:hsl(104, 45%, 30%)">80.0</td>
+    </tr></tbody>
+      </table>
+    </div>
+
+    <div class="findings">
+      <h2>Key findings</h2>
+      <p>• claude-sonnet-4-6 leads overall. The widest gap is <b>transliteration</b> (94.4 vs 80.0) — the tasks otherwise run close.</p>
+      <p>• <b>The Tamil token tax:</b> the same sentence costs 1.7×–6.6× more tokens in Tamil than English depending on the tokenizer — a real cost/latency penalty for Tamil users.</p>
+      <p style="color:#94a3b8">Scores are 0–100 (higher = better). Overall = mean of per-task averages. Work in progress — dataset expanding toward ~275 items.</p>
+    </div>
+
+    <div class="foot">Reproducible: <code>npm run bench</code> · <code>npm run site</code></div>
+  </div>
+</body>
+</html>
