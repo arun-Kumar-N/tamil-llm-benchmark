@@ -12,6 +12,7 @@
     "review": "tsx src/review-sheet.ts",
     "tokens": "tsx src/token-efficiency.ts",
     "site": "tsx src/build-site.ts",
+    "breakdown": "tsx src/breakdown.ts",
     "bench": "tsx src/run.ts && tsx src/score.ts && tsx src/leaderboard.ts",
     "typecheck": "tsc --noEmit"
   },
