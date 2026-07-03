@@ -142,10 +142,14 @@ const html = `<!doctype html>
   .findings p{font-size:14px;color:#475569;line-height:1.6;margin:6px 0}
   .foot{margin-top:24px;font-size:12px;color:#94a3b8;text-align:center}
   code{background:#eef2ff;color:#4338ca;padding:1px 6px;border-radius:5px;font-size:12px}
+  .banner{background:#fffbeb;border:1px solid #fcd34d;color:#92400e;border-radius:12px;
+    padding:12px 18px;font-size:13.5px;line-height:1.5;margin-bottom:24px}
+  .banner b{color:#78350f}
 </style>
 </head>
 <body>
   <div class="wrap">
+    <div class="banner">🚧 <b>Work in progress.</b> This is an early preview. The dataset (${totalItems} items) is still being verified by a native Tamil speaker and is expanding toward ~275 items — <b>scores are preliminary</b> and will change.</div>
     <div class="eyebrow">Open Evaluation · built by a native speaker</div>
     <h1>Tamil LLM Benchmark</h1>
     <p class="sub">How well do today's language models actually handle Tamil? Measured across ${tasks.length} tasks with chrF, accuracy, and LLM-as-judge scoring.</p>
