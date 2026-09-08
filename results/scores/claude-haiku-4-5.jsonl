@@ -1,0 +1,38 @@
+{"id":"sent-001","task":"sentiment","model":"claude-haiku-4-5","method":"accuracy","score":1}
+{"id":"sent-002","task":"sentiment","model":"claude-haiku-4-5","method":"accuracy","score":1}
+{"id":"sent-003","task":"sentiment","model":"claude-haiku-4-5","method":"accuracy","score":1}
+{"id":"en-ta-001","task":"translation_en_ta","model":"claude-haiku-4-5","method":"judge","score":0.75,"detail":{"raw1to5":4,"reasoning":"The model's answer conveys the same meaning (today the weather is nice/beautiful) using 'காலநிலை' (climate/weather) instead of 'வானிலை' (weather) and 'அழகாக உள்ளது' instead of 'நன்றாக இருக்கிறது', both of which are valid Tamil expressions, making it an acceptable and natural translation."}}
+{"id":"en-ta-002","task":"translation_en_ta","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer is identical to the reference answer, perfectly translating 'I am drinking water' into Tamil."}}
+{"id":"en-ta-003","task":"translation_en_ta","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer correctly conveys the same meaning ('Where is the railway station?') with only minor differences: 'இரயில்' vs 'ரயில்' (both acceptable spellings) and 'உள்ளது' vs 'இருக்கிறது' (both valid ways to say 'is located'), making it a natural and accurate translation."}}
+{"id":"en-ta-004","task":"translation_en_ta","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer correctly conveys the meaning 'She is reading a book' with the continuous tense form 'படித்துக்கொண்டிருக்கிறாள்' which is actually more precise for the present progressive aspect, and uses the accusative case 'புத்தகத்தை' which is grammatically natural, making it a fluent and accurate translation, though slightly more verbose than the reference."}}
+{"id":"en-ta-005","task":"translation_en_ta","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer is identical to the reference answer, making it a perfect translation."}}
+{"id":"thang-001","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":1}
+{"id":"thang-002","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":1}
+{"id":"thang-003","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":1}
+{"id":"thang-004","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":1}
+{"id":"thang-005","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":1}
+{"id":"thang-006","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":0.8311616459449276}
+{"id":"thang-007","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":1}
+{"id":"thang-008","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":0.648893029714936}
+{"id":"thang-009","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":0.8992069976808699}
+{"id":"thang-010","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":0.3862133237133237}
+{"id":"gram-001","task":"grammar","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer exactly matches the reference answer, correctly changing 'வந்தான்' to 'வந்தார்கள்' to agree with the plural/honorific subject 'அவர்கள்'."}}
+{"id":"gram-002","task":"grammar","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer exactly matches the reference answer, correctly changing போனான் (third person masculine) to போனேன் (first person), which is grammatically correct for the subject நான் (I)."}}
+{"id":"gram-003","task":"grammar","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer exactly matches the reference answer, correctly changing 'சாப்பிட்டான்' (masculine form) to 'சாப்பிட்டாள்' (feminine form) to agree with the feminine subject 'அவள்'."}}
+{"id":"gram-004","task":"grammar","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer exactly matches the reference answer, correctly changing the past tense verb 'போனேன்' to the future tense 'போவேன்' to match the future time word 'நாளை'."}}
+{"id":"gram-005","task":"grammar","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer exactly matches the reference answer, correctly using the locative case marker '-இல்' (வீட்டில்) to fix the grammatical error in the input."}}
+{"id":"gram-006","task":"grammar","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer exactly matches the reference answer, correctly using the plural form 'பையன்கள்' and the appropriate plural verb 'வந்தார்கள்'."}}
+{"id":"gram-007","task":"grammar","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer exactly matches the reference answer, correctly using 'நல்லவள்' (feminine form) instead of 'நல்லவன்' (masculine form) to agree with 'அம்மா' (mother)."}}
+{"id":"gram-008","task":"grammar","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer exactly matches the reference answer, correctly changing the present tense 'வருகிறேன்' to the past tense 'வந்தேன்' to agree with the temporal marker 'நேற்று' (yesterday)."}}
+{"id":"gram-009","task":"grammar","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer exactly matches the reference answer, correctly using 'வந்தார்' (honorific form) instead of 'வந்தான்' (non-honorific) for the teacher, which is the appropriate respectful register in Tamil."}}
+{"id":"gram-010","task":"grammar","model":"claude-haiku-4-5","method":"judge","score":1,"detail":{"raw1to5":5,"reasoning":"The model's answer 'நான் அவனுக்குப் பணம் கொடுத்தேன்' is essentially identical to the reference answer, with the only difference being the use of 'அவனுக்குப்' instead of 'அவனுக்கு', which is actually more grammatically correct in formal Tamil as 'ப்' is the appropriate euphonic consonant (புணர்ச்சி) before 'ப' in 'பணம்."}}
+{"id":"thang-011","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":0.8542858079142883}
+{"id":"thang-012","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":1}
+{"id":"thang-013","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":1}
+{"id":"thang-014","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":0.8460727613969424}
+{"id":"thang-015","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":0.7366779618532021}
+{"id":"thang-016","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":0.5867579208758585}
+{"id":"thang-017","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":0.70147573099537}
+{"id":"thang-018","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":0.3351679711179463}
+{"id":"thang-019","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":0.7520592571679529}
+{"id":"thang-020","task":"transliteration","model":"claude-haiku-4-5","method":"chrf","score":0.42276462447335494}

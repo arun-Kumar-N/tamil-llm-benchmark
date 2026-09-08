@@ -1,0 +1,38 @@
+{"id":"sent-001","task":"sentiment","model":"claude-sonnet-4-6","input":"படம் மிகவும் நன்றாக இருந்தது.","reference":"positive","scoring":"accuracy","output":"positive"}
+{"id":"sent-002","task":"sentiment","model":"claude-sonnet-4-6","input":"சேவை மிகவும் மோசமாக இருந்தது.","reference":"negative","scoring":"accuracy","output":"negative"}
+{"id":"sent-003","task":"sentiment","model":"claude-sonnet-4-6","input":"படம் சூப்பர், ஆனா க்ளைமாக்ஸ் கொஞ்சம் சோகம்.","reference":"mixed","scoring":"accuracy","output":"mixed"}
+{"id":"en-ta-001","task":"translation_en_ta","model":"claude-sonnet-4-6","input":"The weather is nice today.","reference":"இன்று வானிலை நன்றாக இருக்கிறது.","scoring":"chrf","output":"இன்று வானிலை நன்றாக இருக்கிறது."}
+{"id":"en-ta-002","task":"translation_en_ta","model":"claude-sonnet-4-6","input":"I am drinking water.","reference":"நான் தண்ணீர் குடிக்கிறேன்.","scoring":"chrf","output":"நான் தண்ணீர் குடிக்கிறேன்."}
+{"id":"en-ta-003","task":"translation_en_ta","model":"claude-sonnet-4-6","input":"Where is the railway station?","reference":"ரயில் நிலையம் எங்கே இருக்கிறது?","scoring":"chrf","output":"ரயில் நிலையம் எங்கே இருக்கிறது?"}
+{"id":"en-ta-004","task":"translation_en_ta","model":"claude-sonnet-4-6","input":"She is reading a book.","reference":"அவள் ஒரு புத்தகம் படிக்கிறாள்.","scoring":"chrf","output":"அவள் ஒரு புத்தகம் படிக்கிறாள்."}
+{"id":"en-ta-005","task":"translation_en_ta","model":"claude-sonnet-4-6","input":"We will go to school tomorrow.","reference":"நாங்கள் நாளை பள்ளிக்குச் செல்வோம்.","scoring":"chrf","output":"நாங்கள் நாளை பள்ளிக்கு செல்வோம்."}
+{"id":"thang-001","task":"transliteration","model":"claude-sonnet-4-6","input":"naan veetuku poren","reference":"நான் வீட்டுக்கு போறேன்","scoring":"chrf","output":"நான் வீட்டுக்கு போறேன்"}
+{"id":"thang-002","task":"transliteration","model":"claude-sonnet-4-6","input":"enaku pasikkuthu","reference":"எனக்கு பசிக்குது","scoring":"chrf","output":"எனக்கு பசிக்குது"}
+{"id":"thang-003","task":"transliteration","model":"claude-sonnet-4-6","input":"neenga epadi irukeenga","reference":"நீங்க எப்படி இருக்கீங்க","scoring":"chrf","output":"நீங்க எப்படி இருக்கீங்க"}
+{"id":"thang-004","task":"transliteration","model":"claude-sonnet-4-6","input":"naalaikku varen","reference":"நாளைக்கு வரேன்","scoring":"chrf","output":"நாளைக்கு வரேன்"}
+{"id":"thang-005","task":"transliteration","model":"claude-sonnet-4-6","input":"enna panre","reference":"என்ன பண்றே","scoring":"chrf","output":"என்ன பண்றே"}
+{"id":"thang-006","task":"transliteration","model":"claude-sonnet-4-6","input":"konjam thanni kudunga","reference":"கொஞ்சம் தண்ணி குடுங்க","scoring":"chrf","output":"கொஞ்சம் தண்ணி குடுங்க"}
+{"id":"thang-007","task":"transliteration","model":"claude-sonnet-4-6","input":"enaku coffee venum","reference":"எனக்கு காபி வேணும்","scoring":"chrf","output":"எனக்கு காபி வேணும்"}
+{"id":"thang-008","task":"transliteration","model":"claude-sonnet-4-6","input":"office ku late aachu","reference":"ஆபீஸுக்கு லேட் ஆச்சு","scoring":"chrf","output":"ஆபீஸ்க்கு லேட் ஆச்சு"}
+{"id":"thang-009","task":"transliteration","model":"claude-sonnet-4-6","input":"saapteengala","reference":"சாப்டீங்களா","scoring":"chrf","output":"சாப்டீங்களா"}
+{"id":"thang-010","task":"transliteration","model":"claude-sonnet-4-6","input":"romba nandri","reference":"ரொம்ப நன்றி","scoring":"chrf","output":"ரொம்ப நன்றி"}
+{"id":"gram-001","task":"grammar","model":"claude-sonnet-4-6","input":"அவர்கள் நேற்று வந்தான்.","reference":"அவர்கள் நேற்று வந்தார்கள்.","scoring":"judge","output":"அவர்கள் நேற்று வந்தார்கள்."}
+{"id":"gram-002","task":"grammar","model":"claude-sonnet-4-6","input":"நான் பள்ளிக்கு போனான்.","reference":"நான் பள்ளிக்கு போனேன்.","scoring":"judge","output":"நான் பள்ளிக்கு போனேன்."}
+{"id":"gram-003","task":"grammar","model":"claude-sonnet-4-6","input":"அவள் சாப்பிட்டான்.","reference":"அவள் சாப்பிட்டாள்.","scoring":"judge","output":"அவள் சாப்பிட்டாள்."}
+{"id":"gram-004","task":"grammar","model":"claude-sonnet-4-6","input":"நாளை நான் கடைக்கு போனேன்.","reference":"நாளை நான் கடைக்கு போவேன்.","scoring":"judge","output":"நாளை நான் கடைக்கு போவேன்."}
+{"id":"gram-005","task":"grammar","model":"claude-sonnet-4-6","input":"அவன் வீடு இருக்கிறான்.","reference":"அவன் வீட்டில் இருக்கிறான்.","scoring":"judge","output":"அவன் வீட்டில் இருக்கிறான்."}
+{"id":"gram-006","task":"grammar","model":"claude-sonnet-4-6","input":"மூன்று பையன் வந்தான்.","reference":"மூன்று பையன்கள் வந்தார்கள்.","scoring":"judge","output":"மூன்று பையன்கள் வந்தார்கள்."}
+{"id":"gram-007","task":"grammar","model":"claude-sonnet-4-6","input":"என் அம்மா நல்லவன்.","reference":"என் அம்மா நல்லவள்.","scoring":"judge","output":"என் அம்மா நல்லவள்."}
+{"id":"gram-008","task":"grammar","model":"claude-sonnet-4-6","input":"நேற்று நான் வருகிறேன்.","reference":"நேற்று நான் வந்தேன்.","scoring":"judge","output":"நேற்று நான் வந்தேன்."}
+{"id":"gram-009","task":"grammar","model":"claude-sonnet-4-6","input":"ஆசிரியர் வந்தான்.","reference":"ஆசிரியர் வந்தார்.","scoring":"judge","output":"ஆசிரியர் வந்தார்."}
+{"id":"gram-010","task":"grammar","model":"claude-sonnet-4-6","input":"நான் அவன் பணம் கொடுத்தேன்.","reference":"நான் அவனுக்கு பணம் கொடுத்தேன்.","scoring":"judge","output":"நான் அவனுக்கு பணம் கொடுத்தேன்."}
+{"id":"thang-011","task":"transliteration","model":"claude-sonnet-4-6","input":"naan unna miss panren","reference":"நான் உன்ன மிஸ் பண்றேன்","scoring":"chrf","output":"நான் உன்னை மிஸ் பண்றேன்"}
+{"id":"thang-012","task":"transliteration","model":"claude-sonnet-4-6","input":"enaku romba kovam varuthu","reference":"எனக்கு ரொம்ப கோவம் வருது","scoring":"chrf","output":"எனக்கு ரொம்ப கோவம் வருது"}
+{"id":"thang-013","task":"transliteration","model":"claude-sonnet-4-6","input":"veetla yaaru illa","reference":"வீட்ல யாரு இல்ல","scoring":"chrf","output":"வீட்ல யாரு இல்ல"}
+{"id":"thang-014","task":"transliteration","model":"claude-sonnet-4-6","input":"naalaikku meeting iruku","reference":"நாளைக்கு மீட்டிங் இருக்கு","scoring":"chrf","output":"நாளைக்கு மீட்டிங் இருக்கு"}
+{"id":"thang-015","task":"transliteration","model":"claude-sonnet-4-6","input":"nee enga poora","reference":"நீ எங்க போற","scoring":"chrf","output":"நீ எங்க போற"}
+{"id":"thang-016","task":"transliteration","model":"claude-sonnet-4-6","input":"konjam help pannunga","reference":"கொஞ்சம் ஹெல்ப் பண்ணுங்க","scoring":"chrf","output":"கொஞ்சம் ஹெல்ப் பண்ணுங்க"}
+{"id":"thang-017","task":"transliteration","model":"claude-sonnet-4-6","input":"enaku puriyala","reference":"எனக்கு புரியல","scoring":"chrf","output":"எனக்கு புரியல"}
+{"id":"thang-018","task":"transliteration","model":"claude-sonnet-4-6","input":"saaptutu padi","reference":"சாப்ட்டுட்டு படி","scoring":"chrf","output":"சாப்டுது படி"}
+{"id":"thang-019","task":"transliteration","model":"claude-sonnet-4-6","input":"phone la pesitu iruken","reference":"ஃபோன்ல பேசிட்டு இருக்கேன்","scoring":"chrf","output":"போனல பேசிட்டு இருக்கேன்"}
+{"id":"thang-020","task":"transliteration","model":"claude-sonnet-4-6","input":"romba time aachu","reference":"ரொம்ப டைம் ஆச்சு","scoring":"chrf","output":"ரொம்ப டைம் ஆச்சு"}
